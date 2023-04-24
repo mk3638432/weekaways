@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className='sm:hidden z-10 '>
             <FaBars onClick={hamdleNav} size={20} className='mr-4 cursor-pointer'/>
         </div>
-        <div className={nav ? 'md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 h-screen bg-black/90 px-4 py-7 flex flex-col w-full' : 
+        <div className={nav ?  'md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 h-screen bg-black/90 px-4 py-7 flex flex-col w-full' : 
         'absolute top-0 h-screen left-[-100%] ease-in duration-500'}>
         <ul className='font-bold w-full h-full text-center py-10  '>
        <li className='text-2xl py-8'>
